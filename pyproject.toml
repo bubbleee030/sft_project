@@ -1,0 +1,16 @@
+[project]
+name = "sft_project"
+version = "1.0.0"
+description = "A collection of tools for SFT data processing, analysis, and visualization."
+requires-python = ">=3.8"
+dependencies = [
+    "pandas",
+    "simhash",
+    "tqdm",
+    "matplotlib",
+    "seaborn",
+    "numpy",
+    "transformers",
+    "huggingface_hub",
+    "requests"
+]

@@ -1,0 +1,19 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+.env
+
+# data and outputs are not part of the public release
+eval_results/
+final_classified_output*/
+judge_training_data/
+data_ablation/
+output/
+logs/
+results/
+eval_output/
+model_predictions/
+benchmark_results/
+visualization_report/
+*.jsonl
